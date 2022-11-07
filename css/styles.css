@@ -239,7 +239,8 @@ th.t-head {
 
 .imagen-producto img {
     margin: 0 auto;
-    width: 55%;
+    width: 55% ;
+    border-radius: 30px;
 }
 
 .carousel-indicators {
