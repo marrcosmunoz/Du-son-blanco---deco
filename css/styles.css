@@ -240,6 +240,7 @@ th.t-head {
     margin: 0 auto;
     width: 55%;
     border-radius: 30px;
+    height: 200px;
 }
 
 .carousel-indicators {
