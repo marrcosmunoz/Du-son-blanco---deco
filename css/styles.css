@@ -35,11 +35,12 @@ ul {
     margin: 0;
     padding: 0;
 }
-
+/*-- header --*/
 .header {
     text-align: center;
     margin-top: 2em;
 }
+/*--//to-top--*/
 .titulo {
     text-align: center;
     margin-bottom: 3em;
@@ -50,6 +51,7 @@ ul {
     color: #000;
     margin-bottom: 0.5em;
 }
+/* TABLA */
 .table td,
 .table>tbody>tr>td,
 .table>tbody>tr>th,
@@ -104,7 +106,7 @@ th.t-head {
     padding: 0.6em !important;
     border: 1px solid #D2D2D2 !important;
 }
-
+/* PRODUCTO */
 .nombre-producto {
     padding: 30px 0 0;
 }
@@ -242,7 +244,7 @@ th.t-head {
     border-radius: 30px;
     height: 200px;
 }
-
+/* CARRUSEL */
 .carousel-indicators {
     position: absolute;
     bottom: -45px;
@@ -530,7 +532,7 @@ nav ul li ul li a:hover {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-
+/* ARTICULO */
 
 main {
     background: #f0f0f0;
@@ -669,6 +671,7 @@ ul ul, ol ul, ul ol, ol ol {
     margin-left: auto;
 }
 
+/* CARRUSEL */
 .carousel {
     position: relative;
 }
@@ -754,6 +757,8 @@ ul ul, ol ul, ul ol, ol ol {
 .clearfix:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical > .btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-footer:after {
     clear: both;
 }
+
+/*ELEMENTOS RESPONSIVOS*/
 
 #label__check {
     width: 26px;
