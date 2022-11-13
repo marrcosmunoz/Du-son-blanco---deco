@@ -49,7 +49,11 @@ form{
 }
 .form-label{
     color: var(--color);
-    
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
 }
 body {
     margin: 0;
