@@ -20,6 +20,14 @@ form{
     font-size: 2rem;
     margin-bottom: .5em;
 }
+.form__paragraph{
+    font-weight: 300;
+}
+.form-link{
+    font-weight: 400;
+    color: #000;
+}
+
 body {
     margin: 0;
     padding: 0;
