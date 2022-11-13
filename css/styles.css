@@ -27,6 +27,11 @@ form{
     font-weight: 400;
     color: #000;
 }
+.form-conteiner{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
 
 body {
     margin: 0;
