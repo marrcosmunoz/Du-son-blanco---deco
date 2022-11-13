@@ -32,6 +32,10 @@ form{
     display: grid;
     gap: 2.5em;
 }
+.form-group{
+    position: relative;
+    --color: #575757;
+}
 
 body {
     margin: 0;
