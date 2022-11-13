@@ -44,7 +44,8 @@ form{
     padding: .6em .3em;
     border: none;
     outline: none;
-    
+    border-bottom: 1px solid var(--color);
+    font-family: 'Roboto', sans-serif;
 }
 body {
     margin: 0;
