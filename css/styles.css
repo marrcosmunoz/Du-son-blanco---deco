@@ -36,7 +36,16 @@ form{
     position: relative;
     --color: #575757;
 }
-
+.form-input{
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    
+}
 body {
     margin: 0;
     padding: 0;
