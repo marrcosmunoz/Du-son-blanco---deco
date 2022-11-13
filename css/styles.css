@@ -47,6 +47,10 @@ form{
     border-bottom: 1px solid var(--color);
     font-family: 'Roboto', sans-serif;
 }
+.form-label{
+    color: var(--color);
+    
+}
 body {
     margin: 0;
     padding: 0;
