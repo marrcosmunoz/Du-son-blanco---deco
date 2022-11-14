@@ -7,7 +7,7 @@ body {
 @keyframes capa {
   from {
     margin-left: 100%;
-    width: 300%
+    width: 300%;
   }
 
   to {
@@ -15,7 +15,10 @@ body {
     width: 100%;
   }
 }
---*/
+#boton{
+    animation: none;
+}
+
 /*--formulario--*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 form{
