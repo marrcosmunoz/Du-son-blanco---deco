@@ -75,6 +75,14 @@ form{
     width: 100%;
     height: 1px;
     background-color: #3866f2;
+    transform: scale(0);
+    transform: left bottom;
+    transition: transform .4s;
+}
+.form-input:focus + .form-line, 
+.form-input:not(:placeholder-shown) + .form-line{
+    transform: scale(1);
+    
 }
 /*--formulario>--*/
 body {
