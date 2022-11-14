@@ -68,6 +68,14 @@ form{
     border: none;
     border-radius: .5em;
 }
+.form-line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #3866f2;
+}
 /*--formulario>--*/
 body {
     margin: 0;
