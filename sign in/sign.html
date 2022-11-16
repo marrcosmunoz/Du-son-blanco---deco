@@ -7,7 +7,6 @@
     <title>Inicio sesion</title>
 	<link rel="shortcut icon" href="../images/logo.jpg" type="image/x-icon">
 	<link href="../css/styles.css" rel='stylesheet' type='text/css' />
-	<script src="../js/script.js"></script>
 	<script src="https://kit.fontawesome.com/74472c6682.js"></script>
 </head>
 <body>
@@ -66,8 +65,12 @@
                     <span class="form-line"></span>
                 </div>
             </div>
-            <input type="button" id="sumbit" class="form-sumbit" value="Entrar">
-            <p class="warning" id="warning"></p>
+            <input type="button" id="sumbit" class="form-sumbit" onclick="addElemento(getElementById('texto').value);" value="Enviar">
+            <div id="div">
+                <input type="text" id="input">
+                <button onclick=movimiento()>Enviar</button>
+            </div>
+            <script src="../js/script.js"></script>
        </form>
         	<!--footer-->
 	<div class="footer">

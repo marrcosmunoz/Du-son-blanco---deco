@@ -4,22 +4,20 @@ body {
   animation-name: capa;
 }
 .rotar{
-    animation: rotate 10s linear infinite;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
 }
-@keyframes rotate{
-    0%{
-        transform: rotate(360deg);
-    }
-    100%{
-        transform: rotateZ('3deg');
-    }
-}
-.warning{
-    width: 200px;
-    text-align: center;
-    margin: auto;
-    color: #000000;
-    padding-top: 20px;
+@keyframes slidein{
+    from {
+        margin-left: 100%;
+        width: 300%
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
 }
 /*--formulario--*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
