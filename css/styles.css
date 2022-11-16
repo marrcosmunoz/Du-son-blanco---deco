@@ -3,68 +3,7 @@ body {
   animation-duration: 3s;
   animation-name: capa;
 }
-<<<<<<< Updated upstream
-.rotar{
-<<<<<<< Updated upstream
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-}
-@keyframes slidein{
-    from {
-        margin-left: 100%;
-        width: 300%
-      }
-    
-      to {
-        margin-left: 0%;
-        width: 100%;
-      }
-=======
-    animation: rotate 10s linear infinite;
-}
-@keyframes rotate{
-    0%{
-        transform: rotate(360deg);
-    }
-    100%{
-        transform: rotateZ('3deg');
-    }
-}
-.warning{
-    width: 200px;
-    text-align: center;
-    margin: auto;
-    color: #000000;
-    padding-top: 20px;
-=======
 
-@keyframes capa {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-<<<<<<< HEAD
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-#boton{
-    animation: none;
-=======
-}
-#boton{
-    animation-name: button;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    width: 10px;
-    height: 0px;
->>>>>>> develop
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-}
 /*--formulario--*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 form{
@@ -137,8 +76,6 @@ form{
     padding: .8em 0;
     border: none;
     border-radius: .5em;
-    width: 100%;
-    margin-top: 10px;
 }
 .form-line{
     position: absolute;
