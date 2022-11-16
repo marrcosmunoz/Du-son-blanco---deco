@@ -1,10 +1,10 @@
-const div = document.getElementById('div');
+const mov = document.getElementById('mov');
 
 function movimiento(){
-    const input = document.getElementById('input');
+    const input = document.getElementById('input').value;
     const h1 = document.createElement('h1');
     console.log(input);
     h1.textContent = input;
-    div.appendChild(h1);
-    div.classList.add('rotation');
+    mov.appendChild(h1);
+    mov.classList.add('rotar');
 }
