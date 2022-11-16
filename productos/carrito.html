@@ -116,23 +116,19 @@
 			</div>
 		</div>
 	</div>
-	<div id="capa">
+		<div id="capa">	</div>
 		<form>
-			<input type="text" id="texto" >
-			<input type="button" onclick="addElemento(getElementById('texto').value);" value="Añadir Elemento">
+			<label for="textof">nombre:</label>
+			<input type="text" id="textof">
+			<label for="texto">Contraseña:</label>
+			<input type="text" id="texto">
+			<input type="button" onclick="addElemento(getElementById('texto').value);" value="Enviar">
 		</form>
+		<div id="mov">
+			<input type="text" id="input">
+			<button onclick=movimiento()>Enviar</button>
 		</div>
-				<script>
-					function addElemento(texto){
-					var capa = document.getElementById("capa");
-					var h1 = document.createElement("h1");
-					h1.innerHTML = texto;
-					capa.appendChild(h1);
-					}
-				</script>
-				<style>
-					
-				</style>
+		<script src="../js/animador.js"></script>
 </body>
 
 </html>

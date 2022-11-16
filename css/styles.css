@@ -3,32 +3,24 @@ body {
   animation-duration: 3s;
   animation-name: capa;
 }
-
-@keyframes capa {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-<<<<<<< HEAD
+.rotar{
+    animation: rotate 10s linear infinite;
 }
-#boton{
-    animation-name: button;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    width: 10px;
-    height: 0px;
-=======
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
+@keyframes rotate{
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotateZ('3deg');
+    }
 }
-#boton{
-    animation: none;
->>>>>>> develop
+.warning{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #000000;
+    padding-top: 20px;
 }
-
 /*--formulario--*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 form{
@@ -101,6 +93,8 @@ form{
     padding: .8em 0;
     border: none;
     border-radius: .5em;
+    width: 100%;
+    margin-top: 10px;
 }
 .form-line{
     position: absolute;

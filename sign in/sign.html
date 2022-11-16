@@ -7,8 +7,8 @@
     <title>Inicio sesion</title>
 	<link rel="shortcut icon" href="../images/logo.jpg" type="image/x-icon">
 	<link href="../css/styles.css" rel='stylesheet' type='text/css' />
-	<script src="../js/jquery-1.11.1.min.js"></script>
-	<script src="https://kit.fontawesome.com/74472c6682.js" crossorigin="anonymous"></script>
+	<script src="../js/script.js"></script>
+	<script src="https://kit.fontawesome.com/74472c6682.js"></script>
 </head>
 <body>
     	<!--header-->
@@ -46,7 +46,7 @@
 			</div>
 		</div>
 	</div>
-        <form class="form">
+        <form class="form" id="form">
             <h2 class="from-title">Inicio Sesión</h2>
             <p class="">Aún no tienes cuenta? <a href="#" class="from-link">Entra aquí</a></p>
             <div class="form-conteiner">
@@ -56,8 +56,8 @@
                     <span class="form-line"></span>
                 </div>
                 <div class="form-group">
-                    <input type="text" id="user" class="form-input" placeholder=" ">
-                    <label for="name" class="form-label">Usuario</label>
+                    <input type="email" id="user" class="form-input" placeholder=" " autocomplete="off">
+                    <label for="name" class="form-label">Email</label>
                     <span class="form-line"></span>
                 </div>
                 <div class="form-group">
@@ -66,13 +66,9 @@
                     <span class="form-line"></span>
                 </div>
             </div>
-            <input type="button" class="form-sumbit" onclick="addElemento(getElementById('texto').value);" value="Entrar">
+            <input type="button" id="sumbit" class="form-sumbit" value="Entrar">
+            <p class="warning" id="warning"></p>
        </form>
-       <script>
-            function form-sumbit{
-                
-            }
-       </script>
         	<!--footer-->
 	<div class="footer">
 		<div class="container">

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 1</title>
+    <link rel="stylesheet" href="../css/rotar.css" type="text/CSS">
+</head>
+<body>
+    <div id="capa">	</div>
+    <form>
+        <label for="textof">nombre:</label>
+        <input type="text" id="textof">
+        <label for="texto">Contraseña:</label>
+        <input type="text" id="texto">
+        <input type="button" onclick="addElemento(getElementById('texto').value);" value="Enviar">
+    </form>
+    <div id="mov">
+        <input type="text" id="input">
+        <button onclick=movimiento()>Enviar</button>
+    </div>
+    <script src="../js/animador.js"></script>
+    
+</body>
+</html>
