@@ -9,6 +9,7 @@ body {
     margin-left: 100%;
     width: 300%;
   }
+<<<<<<< HEAD
 }
 #boton{
     animation-name: button;
@@ -16,6 +17,16 @@ body {
     animation-iteration-count: infinite;
     width: 10px;
     height: 0px;
+=======
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+#boton{
+    animation: none;
+>>>>>>> develop
 }
 
 /*--formulario--*/
