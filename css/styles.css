@@ -207,6 +207,12 @@ th.t-head {
     border: 1px solid #D2D2D2 !important;
 }
 /* PRODUCTO */
+.contenedor-producto{
+    font-size: 16px;
+    margin-top: 10px;
+    transition: all 500ms;
+    border: #029241;
+}
 .nombre-producto {
     padding: 30px 0 0;
 }

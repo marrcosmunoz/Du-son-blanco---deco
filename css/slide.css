@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto:wght@300;400&display=swap');
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.container{
+    position: relative;
+}
+.container .slide-container .slide{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 9%;
+    padding-bottom: 70px;
+}
+.container .slide-container .slide .conte{
+    flex: 1 1 350px;
+}
+.container .slide-container .slide .imge{
+    flex: 1 1 500px;
+}
+.container .slide-container .slide .imge img{
+    width: 100%;
+}
+.container .slide-container .slide .conte h3{
+    font-size: 35px;
+    color: #333;
+}
+.container .slide-container .slide .conte p{
+    font-size: 16px;
+    color: #666;
+    padding: 10px 0;
+}   
+.container .slide-container .slide .conte .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background: #666;
+    color: #fff;
+    font-size: 17px;
+    padding: 9px 40px;
+}
+.container .slide-conteiner .slide .conte .btn:hover{
+    background: #333;
+}
+.container .slide-conteiner{
+    display: none;
+}
+.container .slide-container.active{
+    display: block;
+}
+.container .slide-container:nth-child(1) .slide{
+    background: linear-gradient(90deg, 70% #f9f9f9, #ffff99 30.1%);
+}
+.container .slide-container:nth-child(2) .slide{
+    background: linear-gradient(90deg, 70% #f9f9f9, #ff9090 30.1%);
+}
+.container .slide-container:nth-child(3) .slide{
+    background: linear-gradient(90deg, 70% #f9f9f9, #99bbff 30.1%);
+}
+

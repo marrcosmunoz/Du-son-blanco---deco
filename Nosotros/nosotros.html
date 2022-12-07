@@ -1,81 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Conocenos</title>
-    <link href="../css/nosotros.css" rel='stylesheet' type='text/css' />
-    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/nosotros.css">
     <script src="https://kit.fontawesome.com/74472c6682.js" crossorigin="anonymous"></script>
+    <script src="../css/app.js"></script>
+    <title>Conocenos</title>
 </head>
 <body>
-    <div class="contenedor">
-        <div class="encab">		
-            <img src="../images/logo.jpg" alt="logo">
-            <div class="header__superior">
-                <div class="encabezado">
-                    <div class="buscar">
-                        <input type="text" placeholder="Buscar" required>
-                        <div class="boton-buscar">
-                            <i class="fa fa-search" aria-hidden="true" class="fa-sharp fa-solid fa-magnifying-glass"></i>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="boton-comprar-contenedor">
-                        <button class="boton boton-comprar"><i class="fa-solid fa-badge-check"><a href="../Du-son-blanco---deco/sign in/sign.html">sign in</a></i></button>
-                    </div>
-                    <div class="boton-comprar-contenedor">
-                        <button class="boton boton-comprar"><i class="fa-solid fa-badge-check"><a href="../Du-son-blanco---deco/sign in/signup.html">sign up</a></i></button>
-                    </div>
+<!--header-->
+<div class="header">
+    <img src="../images/logo.jpg" alt="logo">
+    <div class="header__superior">
+        <div class="encabezado">
+            <div class="buscar">
+                <input type="text" placeholder="Buscar" required>
+                <div class="boton-buscar">
+                    <i class="fa fa-search" aria-hidden="true" class="fa-sharp fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
-    <div class="cont_menu">
-        <div class="menu">
-            <!--menu-->
-				<input type="checkbox" id="check__menu">
-				<label for="check__menu" id="label__check">
-						<i class="fas fa-bars icon__menu"></i>
-				</label>
-				<nav>
-					<ul>
-						<li><a href="../index.html" id="selected"><img src="../images/logo2.jpg" alt="inicio" height="60" width="60"></a></li>
-						<li><a href="#">Categorias</a>
-							<ul>
-								<li><a href="../productos/blanco.html">blanco</a></li>
-								<li><a href="../productos/deco.html">deco</a></li>
-							</ul>
-						</li>
-						<li><a href="../Du-son-blanco---deco/productos/carrito.html">Carrito</a></li>
-					</ul>
-				</nav>
         </div>
     </div>
-        <div class="cont">
-            <div>
+    <!--menu-->
+    <div class="container__menu">
+
+        <div class="menu">
+
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="selected"><img src="../images/logo2.jpg" alt="inicio" height="60" width="60"></a></li>
+                    <li><a href="#">Categorias</a>
+                        <ul>
+                            <li><a href="../productos/blanco.html">blanco</a></li>
+                            <li><a href="../productos/deco.html">deco</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="../Du-son-blanco---deco/productos/carrito.html">Carrito</a></li>
+                    <li><a href="../Nosotros/nosotros.html">Conocenos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+        <div class="hero">
             <h1>Du Son</h1>
         </div>
-            <div class="parrafo">
-            <p>💫Hola Hola!!!  
+        <div class="contenedor">
+            <p>
+                💫Hola Hola!!!  
                 Aprovechando que somos mas por aca, les contamos un poquito de nosotras
                 Decir que Du Son somos dos, es dejar afuera nuestra familia, que es la que nos acompaña, nos banca, nos insentiva a seguir, y nos apoya en cada paso que damos.
+             </p>
+            <p>
                 Mientras atravesamos lo primeros meses de pandemia😷, se nos ocurrio empezar "algo". No teniamos en claro que era ese algo🙄. Pero si sabiamos que lo queriamos hacer juntas, y que este proyecto se tenia que acoplar a nuestra vida, un poco caotica, ruidosa, de horarios dificiles de coordinar, de otro trabajo, de hijos...."la vida misma"💞
                 Y asi de a poco, entre risas, mates, catarsis, llantos comenzamos a diseñar nuestros productos. Con mucho amor, por momentos frustracion, pero lo mejor "juntas"👩🏻‍🤝‍👩🏼, haciendo de sosten una  a la otra llego Du Son✨ 
-                Somos Memi y Mapy, diseñando para los mas chiquitos</p>
-            </div>
+                Somos Memi y Mapy, diseñando para los mas chiquitos
+            </p>
+    
+            <img id="imagen1" class="izquierda" src="../images/nosotros.jpg">
+            
+            <p>
+                Definitivamente somos la mitad de la otra, juntas logramos un buen equilibrio en la vida😊
+                Y trabajando es igual, asi que cuando una está a mil, la otra lleva calma. 
+            </p>
+            
+            <p>
+                Cuando una ve todo oscuro y quiere renunciar 😅, la otra la pone en eje y le saca de la cabeza esas ridiculeces. 
+                Cuando una colapsa y siente que no puede mas , la otra prepara el mate y hace la pausa para tomar aire🥰
+                Siempre siempre vemos la luz ✨️al final del tunel, y así es como nos metemos en mil cosas a la vez y todo se pone patas arriba. 
+                Pero así funcionamos...... al borde del desequilibrio mental 🤪🤪
+             </p>
+    
+            <img id="imagen2" class="derecha" src="../images/nosotros.jpg" alt="">
+    
         </div>
         <!--footer-->
-	    <div class="footer">
+<div class="footer">
 
-				<h3>Redes Sociales</h3>
-				<ul>
-					<li><a href="https://www.facebook.com/profile.php?id=100054190487040">Facebook<i class="fa-brands fa-facebook"></i></a></li>
-					<li><a href="https://z-p15.www.instagram.com/du.son_blancoydeco/?hl=es-la">Instagram<i class="fa-brands fa-instagram"></i></a></li>
-					<li><a href="https://api.whatsapp.com/message/5OZ3TES2DIVYG1?autoload=1&app_absent=0">WhatsApp<i class="fa-brands fa-whatsapp"></i></a></li>
+    <center><h3>Redes Sociales</h3>
+    <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=100054190487040">Facebook<i class="fa-brands fa-facebook"></i></a></li>
+        <li><a href="https://z-p15.www.instagram.com/du.son_blancoydeco/?hl=es-la">Instagram<i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://api.whatsapp.com/message/5OZ3TES2DIVYG1?autoload=1&app_absent=0">WhatsApp<i class="fa-brands fa-whatsapp"></i></a></li>
 
-				</ul>
-			
+    </ul>
+</center>
 
-                
-	    </div>
-    </div>
+    
+</div>
+    
+        <script src="../css/app.js"></script>
 </body>
 </html>
